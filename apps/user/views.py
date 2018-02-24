@@ -12,7 +12,7 @@ from django.http import JsonResponse
 from django.views.generic import View
 from .models import User
 from celery_tasks.tasks import send_register_active_email
-
+# pp
 
 class RegisterView(View):
     '''注册页面'''
